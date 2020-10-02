@@ -66,7 +66,7 @@
 					// remove stale entry
 					delete anims[this[pauseId]];
 				} else {
-					// pause animation
+					//this section pauses the animation
 					$(this).stop();
 					data.run = false;
 				}
